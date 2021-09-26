@@ -1,16 +1,247 @@
 body{
-    padding: 0;
-    margin:0;
+  padding: 0;
+  margin:0;
 }
-.menu{
-    padding-right: 20px;
-    color:#50658e !important;
+
+.fixed-top{
+  padding: 0%;
+  position: fixed;
+  padding-top: 20px;
+  background-image: url('http://demo.themenio.com/kovid19/assets/images/shape-a.png');
+  height: 600px;
+  background-color: #f6f6f6;
 }
-.button-menu{
-    border: 5px solid #007bff;
-    border-radius: 34%;
-    padding: 5px 9px 5px 9px;
+
+.navbar {
+  padding: 0;
 }
-.font{
-    font-family: 'Roboto Condensed', sans-serif;
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #50658e;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navbar a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #4154f1;
+}
+
+.navbar .getstarted, .navbar .getstarted:focus {
+  background: #4154f1;
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.navbar .getstarted:hover, .navbar .getstarted:focus:hover {
+  color: #fff;
+  background: #5969f3;
+}
+
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 14px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+  color: #4154f1;
+}
+
+.navbar .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.navbar .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+
+.navbar .dropdown .dropdown:hover > ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+
+@media (max-width: 320px) {
+
+  header{
+    display: none;
+  }
+
+  .fixed-top{
+    padding: 0%;
+    position: fixed;
+    padding-top: 20px;
+    background-image: url('http://demo.themenio.com/kovid19/assets/images/shape-a.png');
+    height: 600px;
+    background-color: #f6f6f6;
+    padding-left: 20px;
+  }
+
+  .mobile-icone{
+    padding-top: 5px;
+    font-size: 21px;
+    color: #50658e;
+    padding-left: 20px;
+  }
+
+}
+
+@media (max-width: 375px) and (min-width: 321px){
+
+  header{
+    display: none;
+  }
+
+  .fixed-top{
+    padding: 0%;
+    position: fixed;
+    padding-top: 20px;
+    background-image: url('http://demo.themenio.com/kovid19/assets/images/shape-a.png');
+    height: 600px;
+    background-color: #f6f6f6;
+    padding-left: 20px;
+  }
+
+  .mobile-icone{
+    padding-top: 7px;
+    padding-left: 30px;
+    font-size: 20px;
+    color: #50658e;;
+  }
+
+}
+
+@media (max-width: 576px) and (min-width:  376px) {
+
+  header{
+    display: none;
+  }
+
+  .fixed-top{
+    padding: 0%;
+    position: fixed;
+    padding-top: 20px;
+    background-image: url('http://demo.themenio.com/kovid19/assets/images/shape-a.png');
+    height: 600px;
+    background-color: #f6f6f6;
+    padding-left: 20px;
+  }
+
+  .mobile-icone{
+    padding-top: 8px;
+    padding-left: 40px;
+    font-size: 20px;
+    color: #50658e;;
+  }
+
+}
+
+@media (max-width: 768px) and (min-width: 577px){
+
+  header{
+    display: none;
+  }
+
+  .fixed-top{
+    padding: 0%;
+    position: fixed;
+    padding-top: 20px;
+    background-image: url('http://demo.themenio.com/kovid19/assets/images/shape-a.png');
+    height: 600px;
+    background-color: #f6f6f6;
+    padding-left: 20px;
+  }
+
+  .mobile-icone{
+    padding-left: 110px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: #50658e;;
+  }
+
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+
+.mobile{
+  display: none;
+  }
+
+}
+
+@media (max-width: 1200px) and (min-width: 993px) {
+
+  .navbar a, .navbar a:focus {
+    font-size: 13px;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+}
+
+@media (min-width: 1201px) {
+
+  .mobile{
+    display: none !important;
+  }
+
 }
