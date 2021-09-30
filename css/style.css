@@ -8,7 +8,7 @@ body{
   position: fixed;
   padding-top: 20px;
   background-image: url('http://demo.themenio.com/kovid19/assets/images/shape-a.png');
-  height: 600px;
+  height: 75px;
   background-color: #f6f6f6;
 }
 
@@ -52,7 +52,7 @@ body{
 }
 
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #4154f1;
+  background: #2a81ea;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 30px;
@@ -61,7 +61,7 @@ body{
 
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #5969f3;
+  background: #2a81ea;
 }
 
 .navbar .dropdown ul {
@@ -117,113 +117,287 @@ body{
   left: 100%;
   visibility: visible;
 }
+main{
+  width: 100%;
+  height: 414px;
+}
+.bg-menu-responsivo {
+  background-color: rgba(27,71,161,0.8);
+  opacity: 0.8;
+  display: none;
+}
 
+.navbar-mobile{
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 260px;
+  background: white;
+
+}
+.navbar-mobile a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  color: #4154f1 !important;
+}
+.navbar-mobile ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav-mobile .mobile-icone{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.navbar-mobile .dropdown ul{
+  display: block;
+  position: absolute;
+  left: 14px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+  border-radius: 4px;
+  
+}
+.navbar-mobile .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar-mobile .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.navbar-mobile .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar-mobile .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+  color: #4154f1;
+}
+
+.navbar-mobile .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.navbar-mobile .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+
+.navbar-mobile .dropdown .dropdown:hover > ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+
+.navbar-mobile .getstarted, .navbar .getstarted:focus {
+    background: #2a81ea;
+    padding: 8px 20px;
+    margin-left: 24px;
+    border-radius: 30px;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-mobile .getstarted:hover, .navbar .getstarted:focus:hover {
+  color: #fff;
+  background: #2a81ea;
+}
+.navbar-mobile a, .navbar a:focus {
+  font-family: "Nunito", sans-serif;
+  font-size: 13px;
+  font-weight: 550;
+  color: #50658e !important;
+}
+.icone-fechar-menu{
+  right: 45px;
+  padding: 10px 14px 8px 14px;
+  margin-top: 20px;
+  border-radius: 100%;
+  background: rgba(255,255,255,0.8);
+  color: #50658e !important;
+}
+.primeira-section{
+  background-image: url('http://demo.themenio.com/kovid19/assets/images/shape-a.png');
+  height: 600px;
+  background-color: #f6f6f6;
+}
+
+.font-titulo{
+  font-family: 'Oswald', sans-serif;
+}
+
+.text-corona-primeira-section{
+  color: #50658e;
+  font-size: 5.25rem;
+}
+.text-covid-primeira-section{
+  color: #f86168;
+  font-size: 1.75rem;
+}
+.text-virus-primeira-section{
+  color: #50658e;
+  font-size: 3rem;
+}
+
+.span-covid-primeira-section{
+  line-height: 2;
+}
+.img-primeira-section{
+  width: 600px;
+  height: 540px;
+  margin-top: 30px;
+}
+.text-legenda-primeira-section{
+  font-family: 'Roboto', sans-serif;
+  color: #3d4b69 !important;
+  margin-bottom: 50px;
+}
+.mt-100{
+  margin-top: 100px;
+}
+.primeira-section ul{
+  list-style: none;
+}
+.primeira-section li{
+  display: inline;
+}
+.primeira-section .getstarted{
+  background: #2a81ea;
+  padding: 15px 30px;
+  margin-left: -45px;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+.primeira-section .getstarted-branco{
+  padding: 15px 20px;
+  margin-left: 20px;
+  border-radius: 30px;
+  color: #2a81ea !important;
+  font-weight: bold;
+}
 @media (max-width: 320px) {
 
-  header{
-    display: none;
-  }
+#navbar{
+  display: none;
+}
+.pb-20{
+  padding-bottom: 20px;
+}
+.fixed-top{
+  padding: 0%;
+  padding-top: 20px;
+  padding-left: 20px;
+}
 
-  .fixed-top{
-    padding: 0%;
-    position: fixed;
-    padding-top: 20px;
-    background-image: url('http://demo.themenio.com/kovid19/assets/images/shape-a.png');
-    height: 600px;
-    background-color: #f6f6f6;
-    padding-left: 20px;
-  }
-
-  .mobile-icone{
-    padding-top: 5px;
-    font-size: 21px;
-    color: #50658e;
-    padding-left: 20px;
-  }
+.mobile-icone{
+  padding-top: 5px;
+  font-size: 21px;
+  color: #50658e;
+  padding-left: 20px;
+}
 
 }
 
 @media (max-width: 375px) and (min-width: 321px){
 
-  header{
-    display: none;
-  }
+#navbar{
+  display: none;
+}
+.fixed-top{
+  
+  position: fixed unset;  
+}
+.mobile-icone{
+  padding-top: 7px;
+  padding-left: 30px;
+  font-size: 20px;
+  color: #50658e;;
+}
 
-  .fixed-top{
-    padding: 0%;
-    position: fixed;
-    padding-top: 20px;
-    background-image: url('http://demo.themenio.com/kovid19/assets/images/shape-a.png');
-    height: 600px;
-    background-color: #f6f6f6;
-    padding-left: 20px;
-  }
-
-  .mobile-icone{
-    padding-top: 7px;
-    padding-left: 30px;
-    font-size: 20px;
-    color: #50658e;;
-  }
+.pb-20{
+  padding-bottom: 20px;
+}
 
 }
 
 @media (max-width: 576px) and (min-width:  376px) {
 
-  header{
-    display: none;
-  }
+#navbar{
+  display: none;
+}
 
-  .fixed-top{
-    padding: 0%;
-    position: fixed;
-    padding-top: 20px;
-    background-image: url('http://demo.themenio.com/kovid19/assets/images/shape-a.png');
-    height: 600px;
-    background-color: #f6f6f6;
-    padding-left: 20px;
-  }
+.fixed-top{
+  padding: 0%;
+  position: fixed unset;
+  padding-top: 20px;
+  background-image: url('http://demo.themenio.com/kovid19/assets/images/shape-a.png');
+  height: 75px;
+  background-color: #f6f6f6;
+  padding-left: 20px;
+}
 
-  .mobile-icone{
-    padding-top: 8px;
-    padding-left: 40px;
-    font-size: 20px;
-    color: #50658e;;
-  }
+.mobile-icone{
+  padding-top: 8px;
+  padding-left: 40px;
+  font-size: 20px;
+  color: #50658e;;
+}
 
+.pb-20{
+  padding-bottom: 20px;
+}
 }
 
 @media (max-width: 768px) and (min-width: 577px){
-
-  header{
-    display: none;
-  }
-
-  .fixed-top{
-    padding: 0%;
-    position: fixed;
-    padding-top: 20px;
-    background-image: url('http://demo.themenio.com/kovid19/assets/images/shape-a.png');
-    height: 600px;
-    background-color: #f6f6f6;
-    padding-left: 20px;
-  }
-
-  .mobile-icone{
-    padding-left: 110px;
-    padding-top: 5px;
-    font-size: 20px;
-    color: #50658e;;
-  }
-
+#navbar{
+  display: none;
+}
+.fixed-top{
+  padding: 0%;
+  position: fixed unset;
+  padding-top: 20px;
+  background-image: url('http://demo.themenio.com/kovid19/assets/images/shape-a.png');
+  height: 75px;
+  background-color: #f6f6f6;
+  padding-left: 20px;
+}
+.mobile-icone{
+  padding-left: 110px;
+  padding-top: 5px;
+  font-size: 20px;
+  color: #50658e;;
+}
+.pb-20{
+  padding-bottom: 20px;
+}
 }
 
 @media (max-width: 992px) and (min-width: 769px) {
 
-.mobile{
+.mobile-icone{
   display: none;
-  }
-
+}
+.navbar-mobile{
+  display: none;
+}
+#bg_menu_mobile{
+  display: none;
+}
 }
 
 @media (max-width: 1200px) and (min-width: 993px) {
@@ -232,16 +406,26 @@ body{
     font-size: 13px;
   }
 
-  .mobile{
+  .mobile-icone{
     display: none;
   }
-
+  .navbar-mobile{
+    display: none;
+  }
+  #bg_menu_mobile{
+    display: none;
+  }
 }
 
 @media (min-width: 1201px) {
 
-  .mobile{
+  .mobile-icone{
     display: none !important;
   }
-
+  .navbar-mobile{
+    display: none;
+  }
+  #bg_menu_mobile{
+    display: none;
+  }
 }
