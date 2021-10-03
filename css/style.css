@@ -35,7 +35,7 @@ header{
     margin: 0 -15px;
 }
 .navbar-menu{
-    padding-left: 22px;
+    padding-left: 55px;
     font-size: 16px;
 }
 .navbar-menu ul{
@@ -52,6 +52,8 @@ header{
     color: #50658e;
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
 }
 .navbar-menu a:hover{
     color: #2a81ea !important ;
@@ -126,6 +128,80 @@ main{
 }
 .tamanho{
     padding-top: 40px;
+}
+.img-primeira-section{
+    margin-top: 130px;
+}
+.titulo-corona-primeira-section{
+    font-size: 5.25rem;
+    font-family: 'Oswald', sans-serif;
+    color: #50658e;
+}
+.titulo-covid-19-primeira-section{
+    color: #f86168;
+    font-size: 1.75rem;
+    font-family: 'Oswald', sans-serif;
+}
+.titulo-virus-primeira-section{
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    color: #50658e;
+}
+.primeira-section{
+    margin-top: 165px;
+}
+.titulo{
+    line-height: 3;
+}
+.subtilo-primeira-section{
+    font-family: 'Roboto', sans-serif;
+    color: #3d4b69;
+    line-height: 1.67;
+}
+#primeira-section{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    margin-left: -70px;
+    margin-top: 40px;
+}
+#primeira-section .getstarted{
+    color: white !important;
+    background-color: #2a81ea;
+    font-weight: bold;
+    border-radius: 2rem;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 15px 20px 15px 20px;
+}
+.ml-13 {
+    margin-left: 13px;
+}
+.mt-70{
+    margin-top: 70px;
+
+}
+.text-primeira-section{
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    color: #7d92bb;
+    font-family: 'Roboto Slab', serif;
+}
+.font-size-15{
+    font-size: 15px;
+}
+.numero-primeira-section{
+    font-family: 'Oswald', sans-serif;
+    color: #465675;
+    font-size: 1.75rem;
+}
+.legenda-primeira-section{
+    color: #7d92bb;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.75rem;
+    margin-top: 25px;
 }
 @media (max-width: 320px) {
     .navbar-menu{
@@ -202,8 +278,40 @@ main{
     }
     .icone-fechar-menu{
         padding-top: 35px;
-    font-size: 35px;
-    color: white;
+        font-size: 35px;
+        color: white;
+    }
+    .img-primeira-section{
+        width: 60%;
+        margin: 130px;
+    }
+    .titulo-corona-primeira-section{
+        font-size: 4.5rem;
+    }
+    .titulo-covid-19-primeira-section{
+        font-size: 1.375rem;
+        line-height: 3.5;
+    }
+    .titulo-virus-primeira-section{
+        font-size: 2.5rem;
+    }
+    .primeira-section {
+        margin-top: -35px;
+    }
+    .primeira-section .getstarted{
+        padding: 15px 30px 15px 30px;
+        font-size: 15px;
+    }
+    .font-size-15{
+        font-size: 12px
+    }
+    .numero-primeira-section{
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+    .legenda-primeira-section{
+        margin-top: 20px;
+        margin-left: 14px;
     }
 }
   
@@ -221,6 +329,36 @@ main{
     .icone-abrir{
         display: none;
     }
+    .primeira-section{
+        margin-top: 115px;
+    }
+    .img-primeira-section{
+        margin-top: 105px;
+    }
+    .subtilo-primeira-section{
+        margin-top: -23px;
+        font-size: 14px;
+    }
+    #primeira-section .getstarted{
+        padding: 11px 17px 11px 16px;
+        font-size: 14px;
+    }
+    .font-size-15{
+        font-size: 12px;
+    }
+    .numero-primeira-section{
+        font-size: 1.6rem;
+    }
+    .text-primeira-section{
+        line-height: 1;
+    }
+    .legenda-primeira-section{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .primeira-section{
+        order: unset;
+    }
 }
   
 @media (min-width: 1201px) {
@@ -233,4 +371,7 @@ main{
    .navbar-menu li{
         padding-left: 14px;
    }
+   .primeira-section{
+    order: unset;
+    }
 }
