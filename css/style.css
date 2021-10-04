@@ -75,9 +75,17 @@ header{
     color: white !important;
 }
 .icone-abrir{
-    padding-left: 545px;
+    padding-left: 520px;
     font-size: 20px;
     padding-top: 12px;
+}
+.menu-dropdown{
+    color: #50658e;
+}
+#dropdown{
+    margin-top: 15px;
+    padding: 10px 6px 10px 6px;
+    font-size: .875rem;
 }
 /*mobile*/
 main{
@@ -106,7 +114,7 @@ main{
   list-style: none;
 }
 .icone-fechar-menu{
-    padding-left: 696px;
+    padding-left: 670px;
     font-size: 22px;
 }
 .navbar-mobile .getstarted {
@@ -130,6 +138,9 @@ main{
 }
 .tamanho{
     padding-top: 40px;
+}
+.cor{
+    color: #50658e;
 }
 /*primeira section*/
 .img-primeira-section{
@@ -242,7 +253,7 @@ main{
     line-height: 1.5;
 }
 .card{
-    margin-left: 90px;
+    margin-left: 65px;
     margin-top: 105px;
     margin-bottom: 80px;
     width: 350px;
@@ -250,6 +261,22 @@ main{
 .segunda-div h4{
     color: #465675 !important;
     font-size: 1.25rem;
+}
+.texto-um{
+    font-family: 'Roboto', sans-serif;
+    color:  #515675;
+    line-height: 1.6;
+    font-weight: 300;
+}
+.texto-um h6{
+    font-size: 1.25rem;
+}
+.texto{
+    font-family: 'Roboto', sans-serif;
+}
+#segunda-div li{
+    padding: 23px 15px 15px 26px;
+
 }
 @media (max-width: 320px) {
     .navbar-menu{
@@ -314,7 +341,15 @@ main{
     }
     .mt-70{
         margin-top: 35px !important;
-    }    
+    }   
+    #dropdown {
+        margin-top: -19px
+    }
+    .card {
+        margin-left: -9px;
+        margin-top: 19px;
+        width: 305px;
+    }
 }
   
   
@@ -332,7 +367,7 @@ main{
         padding-left: 20px;
     }
     .icone-fechar-menu{
-        padding-top: 32px;
+        padding-top: 41px;
         font-size: 29px;
         color: white;
         padding-left: 320px;
@@ -375,7 +410,15 @@ main{
     }
     .mt-70{
         margin-top: 35px !important;
-    }    
+    }   
+    #dropdown {
+        margin-top: -19px
+    } 
+    .card {
+        margin-left: 0px;
+        margin-top: 25px;
+        width: 345px;
+    }
 }
   
 @media (max-width: 576px) and (min-width:  376px) {
@@ -393,7 +436,7 @@ main{
         padding-left: 20px;
     }
     .icone-fechar-menu{
-        padding-top: 32px;
+        padding-top: 41px;
         font-size: 29px;
         color: white;
         padding-left: 374px;
@@ -440,6 +483,24 @@ main{
     .mt-70{
         margin-top: 35px !important;
     }    
+    #dropdown {
+        margin-top: -19px
+    }
+    .card{
+        margin-left: 10px;
+        margin-top: 54px;
+        width: 363px;
+    }
+    
+    .texto-um-secunda-section{
+        font-size: 1.125rem;
+    }
+    .texto-dois-segunda-section{
+        font-size: 1.125rem;
+    }
+    .texto-tres-segunda-section{
+        font-size: 1.125rem;
+    }
     
 }
   
@@ -487,6 +548,21 @@ main{
         margin-top: 20px;
         margin-left: 14px;
     }
+    #dropdown {
+        margin-top: -19px
+    }
+    .titulo-um-segunda-section {
+        margin-top: 16%;
+    }
+    .card{
+        margin-left: -2px;
+        margin-top: 45px;
+        width: 650px;
+    }
+    .icone-segunda-section{
+        font-size: 0.9rem;
+        text-align: center;
+    }
 }
   
 @media (max-width: 1200px) and (min-width: 993px) {
@@ -507,7 +583,7 @@ main{
         margin-top: 115px;
     }
     .img-primeira-section{
-        margin-top: 105px;
+        margin-top: 118px;
     }
     .subtilo-primeira-section{
         margin-top: -23px;
@@ -532,6 +608,13 @@ main{
     }
     .primeira-section{
         order: unset;
+    }
+    #dropdown {
+        margin-left: -20px;
+    }
+    .card{
+        margin-left: -30px;
+        margin-top: 85px;
     }
 }
 @media (max-width: 1440px) and (min-width: 1200px) {
@@ -568,7 +651,7 @@ main{
         margin-top: 288px;
     }
     .primeira-section {
-        margin-top: 401px
+        margin-top: 401px;
     }
     .subtilo-primeira-section{
         font-size: 19.5px;

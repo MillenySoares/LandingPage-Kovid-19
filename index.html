@@ -21,7 +21,7 @@
         <title>Kovid19 | Coronavirus (COVID-19) Prevention & Informatics HTML Template</title>
     </head>
     <body >
-        <div style="width: 100vw;">
+        <div style="width: 100%;">
             <header  class="bg-light " id="home">
                 <div class="sobreposição div-principal">
                     <section class="container">
@@ -79,7 +79,15 @@
                                         <li><a class="nav-link scrollto" href="#">Treatment</a></li>
                                         <li><a class="nav-link scrollto" href="#">FAQ</a></li>
                                         <li><a class="nav-link scrollto" href="#">News</a></li>
-                                        <li class="dropdown"><a href="#"><span>More</span></a>     
+                                        <li class="dropdown menu-dropdown">
+                                                <span type="namber" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                  More
+                                                </span>
+                                                <div class="dropdown-menu" id="dropdown" aria-labelledby="dropdownMenuButton">
+                                                  <a class="dropdown-item" href="#">Landing V1</a>
+                                                  <a class="dropdown-item" href="#">Landing V2</a>
+                                                  <a class="dropdown-item" href="#">Inner Page</a>
+                                                </div>
                                         </li>
                                         <li><a class="getstarted scrollto" href="#">Do & Don't</a></li>
                                     </ul>
@@ -93,14 +101,22 @@
                     <main class="bg-menu-responsivo  position-absolute position-relative position-fixed" id="bg_menu_mobile">
                         <nav id="navbar-mobile" class="navbar-mobile position-absolute position-fixed">
                             <ul>
-                               <li><a class="tamanho nav-link active" href="#">Home</a></li>
-                               <li><a class="nav-link" href="#">About Corona</a></li>
-                               <li><a class="nav-link" href="#">Symptoms</a></li>
-                               <li><a class="nav-link" href="#">Prevention</a></li>
-                               <li><a class="nav-link" href="#">Treatment</a></li>
-                               <li><a class="nav-link" href="#">FAQ</a></li>
-                               <li><a class="nav-link" href="#">News</a></li>
-                               <li class="dropdown nav-link pb-22"><a href="#"><span>More</span></a>
+                               <li><a class="cor tamanho nav-link active" href="#">Home</a></li>
+                               <li><a class="cor nav-link" href="#">About Corona</a></li>
+                               <li><a class="cor nav-link" href="#">Symptoms</a></li>
+                               <li><a class="cor nav-link" href="#">Prevention</a></li>
+                               <li><a class="cor nav-link" href="#">Treatment</a></li>
+                               <li><a class="cor nav-link" href="#">FAQ</a></li>
+                               <li><a class="cor nav-link" href="#">News</a></li>
+                               <li class="dropdown menu-dropdown nav-link pb-22">
+                                <span type="namber" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    More
+                                  </span>
+                                  <div class="dropdown-menu" id="dropdown" aria-labelledby="dropdownMenuButton">
+                                    <a class="cor dropdown-item" href="#">Landing V1</a>
+                                    <a class="cor dropdown-item" href="#">Landing V2</a>
+                                    <a class="cor dropdown-item" href="#">Inner Page</a>
+                                  </div>
                                </li>
                                <li><a class="getstarted" href="#">Do & Don't</a></li>
                             </ul>
@@ -115,7 +131,7 @@
             </header>
             <section class="container">
                 <div class="row bg-white secunda-section">
-                    <div class="col-lg-7 pr-5">
+                    <div class="col-lg-7 col-sm-12 pr-5">
                         <h5 class="titulo-um-segunda-section">ABOUT THE DISEASE</h5>
                         <h2 class="titulo-dois-segunda-section">CORONAVIRUS (COVID-19)</h2>
                         <p class="texto-um-secunda-section">
@@ -135,14 +151,57 @@
                     </div>
                     <div class="col-lg-5" id="segunda-div">
                         <div class="card">
-                            <ul class="list-group list-group-flush">
-                              <li class="list-group-item"><h4>What you need to know</h4> <i class="ml-13 fas fa-arrow-right"></i></li>
-                              <li class="list-group-item">How coronavirus is spread <i class="ml-13 fas fa-arrow-right"></i></li>
-                              <li class="list-group-item">Symptoms of coronavirus <i class="ml-13 fas fa-arrow-right"></i></li>
-                              <li class="list-group-item">How to protect yourself <i class="ml-13 fas fa-arrow-right"></i></li>
-                              <li class="list-group-item">Treatment for coronavirus <i class="ml-13 fas fa-arrow-right"></i></li>
-                              <li class="list-group-item"> Myth-Busters of coronavirus <i class="ml-13 fas fa-arrow-right"></i></li>
-                              <li class="list-group-item">Questions & answers <i class="ml-13 fas fa-arrow-right"></i></li>
+                            <ul class="list-group list-group-flush ">
+                              <li class="list-group-item"><a class="texto-um" href="#"><h6>What you need to know </h6></a></li>
+                                <li class="list-group-item">
+                                    <a class="texto " href="#">
+                                        <div class="row">
+                                            <div class="col-10">How coronavirus is spread</div>
+                                            <div class="col-2 icone-segunda-section"><i class="ml-13 fas fa-arrow-right"></i></div> 
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="texto" href="#"> 
+                                        <div class="row">
+                                            <div class="col-10">Symptoms of coronavirus</div>
+                                            <div class="col-2 icone-segunda-section"><i class="ml-13 fas fa-arrow-right"></i></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+
+                                    <a class="texto" href="#"> </i>
+                                        <div class="row">
+                                            <div class="col-10">How to protect yourself</div>
+                                            <div class="col-2 icone-segunda-section"><i class="ml-13 fas fa-arrow-right"></i></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="texto" href="#">
+                                        <div class="row">
+                                            <div class="col-10">Treatment for coronavirus </div>
+                                            <div class="col-2 icone-segunda-section"><i class="ml-13 fas fa-arrow-right"></i></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="texto" href="#">  
+                                        <div class="row">
+                                            <div class="col-10">Myth-Busters of coronavirus</div>
+                                            <div class="col-2 icone-segunda-section"><i class="ml-13 fas fa-arrow-right"></i></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a class="texto" href="#"> 
+                                        <div class="row">
+                                            <div class="col-10">Questions & answers</div>
+                                            <div class="col-2 icone-segunda-section"><i class="ml-13 fas fa-arrow-right"></i></div>
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>

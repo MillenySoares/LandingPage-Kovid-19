@@ -1,5 +1,5 @@
 var menu_aberto_aberto = 0;
-
+var menu_dropdown_aberto=1;
 $('#bottun_abrir').on('click', function(e){
     
 	if(menu_aberto_aberto == 0){
