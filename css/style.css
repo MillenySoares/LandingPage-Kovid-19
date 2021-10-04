@@ -20,6 +20,7 @@ header{
     left: 0;
     right: 0;
 }
+/*menu*/
 .navbar-logo{
     display: flex;
 }
@@ -78,6 +79,7 @@ header{
     font-size: 20px;
     padding-top: 12px;
 }
+/*mobile*/
 main{
     width: 100%;
     height: 414px;
@@ -129,6 +131,7 @@ main{
 .tamanho{
     padding-top: 40px;
 }
+/*primeira section*/
 .img-primeira-section{
     margin-top: 130px;
 }
@@ -202,6 +205,51 @@ main{
     font-family: 'Roboto Slab', serif;
     font-size: 0.75rem;
     margin-top: 25px;
+}
+/*secunda section*/
+
+.secunda-section{
+    height: 672px;
+}
+.titulo-um-segunda-section{
+    margin-top: 21%;
+    color: #2a81ea;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    margin-bottom: .125rem;
+}
+.titulo-dois-segunda-section{
+    font-family: 'Oswald', sans-serif;
+    color: #465675;
+    font-size: 2.5rem;
+}
+.texto-um-secunda-section{
+    font-family: 'Roboto Slab', serif;
+    color: #3d4b69;
+    line-height: 1.5;
+    font-size:1.2em;
+    margin-top: 25px;
+}
+.texto-dois-secunda-section{
+    font-family: 'Roboto Slab', serif;
+    color: #3d4b69;
+    line-height: 1.5;
+}
+.texto-tres-segunda-section{
+    font-family: 'Roboto Slab', serif;
+    color: #3d4b69;
+    line-height: 1.5;
+}
+.card{
+    margin-left: 90px;
+    margin-top: 105px;
+    margin-bottom: 80px;
+    width: 350px;
+}
+.segunda-div h4{
+    color: #465675 !important;
+    font-size: 1.25rem;
 }
 @media (max-width: 320px) {
     .navbar-menu{
