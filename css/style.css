@@ -154,7 +154,7 @@ main{
     line-height: 3;
 }
 .subtilo-primeira-section{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #3d4b69;
     line-height: 1.67;
 }
@@ -187,7 +187,7 @@ main{
     font-weight: bold;
     letter-spacing: 0.05em;
     color: #7d92bb;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
 }
 .font-size-15{
     font-size: 15px;
@@ -223,6 +223,50 @@ main{
         color: white;
         padding-left: 269px;
     }
+    .titulo-corona-primeira-section{
+        font-size: 3.5rem;
+    }
+    .titulo-covid-19-primeira-section{
+        font-size: 1rem;
+    }
+    .titulo-virus-primeira-section{
+        font-size: 1.875rem;
+    }
+    .primeira-section {
+        margin-top: 45px;
+    }
+    #primeira-section  {
+        flex-wrap: wrap;
+    }
+    #primeira-section li{
+        margin-top: 25px;
+    }
+    #primeira-section .getstarted{
+        padding: 12px 15px 12px 15px;
+        font-size: 0.8125rem;
+    }
+    .font-size-15 {
+        font-size: 12px;
+    }
+    .text-mobile-recovered-primeira-section{
+        margin-top: -43px;
+    }
+    .numero-primeira-section {
+        line-height: 1;
+        font-size: 1rem;
+    }
+    .text-mobile-deaths-primeira-section{
+        margin-left: 1px !important;
+        margin-top: 25px;
+    }
+    .legenda-primeira-section {
+        margin-left: 20px;
+        font-size: 0.81rem;
+        margin-top: 15px;
+    }
+    .mt-70{
+        margin-top: 35px !important;
+    }    
 }
   
   
@@ -245,6 +289,45 @@ main{
         color: white;
         padding-left: 320px;
     }
+    .img-primeira-section {
+        margin-top: 115px;
+    }
+    .titulo-corona-primeira-section{
+        font-size: 3.5rem;
+    }
+    .titulo-covid-19-primeira-section{
+        font-size: 1rem;
+    }
+    .titulo-virus-primeira-section{
+        font-size: 1.875rem;
+    }
+    .primeira-section {
+        margin-top: 45px;
+    }
+    #primeira-section .getstarted{
+        padding: 12px 15px 12px 15px;
+        font-size: 0.8125rem;
+    }
+    .font-size-15 {
+        font-size: 12px;
+    }
+    .text-mobile-recovered-primeira-section{
+        margin-top: -52px;
+    }
+    .numero-primeira-section {
+        line-height: 1;
+        font-size: 1.5rem;
+    }
+    .text-mobile-deaths-primeira-section{
+        margin-left: 1px !important;
+        margin-top: 25px;
+    }
+    .legenda-primeira-section {
+        margin-left: 20px;
+    }
+    .mt-70{
+        margin-top: 35px !important;
+    }    
 }
   
 @media (max-width: 576px) and (min-width:  376px) {
@@ -267,6 +350,49 @@ main{
         color: white;
         padding-left: 374px;
     }
+    .primeira-section {
+        margin-top: 35px;
+    }
+    .titulo-corona-primeira-section{
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+    .titulo-covid-19-primeira-section{
+        font-size: 1rem;
+        margin-bottom: .125rem;
+    }
+    .titulo-virus-primeira-section{
+        font-size: 1.875rem;
+    }
+    .subtilo-primeira-section{
+        font-size: 1rem;
+        line-height: 1.67;
+    }
+    #primeira-section .getstarted{
+        padding: 12px 15px 12px 15px;
+        font-size: .8125rem;
+    }
+    .font-size-15 {
+        font-size: 12px;
+    }
+    .text-mobile-recovered-primeira-section{
+        margin-top: -52px;
+    }
+    .numero-primeira-section {
+        line-height: 1;
+        font-size: 1.5rem;
+    }
+    .text-mobile-deaths-primeira-section{
+        margin-left: 1px !important;
+        margin-top: 25px;
+    }
+    .legenda-primeira-section {
+        margin-left: 20px;
+    }
+    .mt-70{
+        margin-top: 35px !important;
+    }    
+    
 }
   
 @media (max-width: 768px) and (min-width: 577px){
@@ -360,8 +486,24 @@ main{
         order: unset;
     }
 }
-  
-@media (min-width: 1201px) {
+@media (max-width: 1440px) and (min-width: 1200px) {
+    header{
+        height: 685px;
+    }
+    .icone-abrir{
+        display: none;
+    }
+    .navbar-menu li{
+         padding-left: 14px;
+    }
+    .primeira-section{
+     order: unset;
+    }
+    .img-primeira-section {
+        margin-top: 164px;
+    }
+}
+@media (max-width: 2560px) and (min-width: 1441px) {
     header{
         height: 1285px;
     }
@@ -373,5 +515,15 @@ main{
    }
    .primeira-section{
     order: unset;
+    }
+    .img-primeira-section {
+        margin-top: 288px;
+    }
+    .primeira-section {
+        margin-top: 401px
+    }
+    .subtilo-primeira-section{
+        font-size: 19.5px;
+        
     }
 }
