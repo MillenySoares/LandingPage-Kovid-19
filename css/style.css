@@ -20,6 +20,10 @@ header{
     left: 0;
     right: 0;
 }
+.tamanh-card{
+    margin-top: 95px; 
+    width: 363px
+}
 /*menu*/
 .navbar-logo{
     display: flex;
@@ -96,7 +100,7 @@ main{
     background-color: rgba(27,71,161,0.8);
     opacity: 1;
     z-index: 9999;
-    height: 100vh;
+    height: 150vh;
     margin-top: 412px;
 }
 .navbar-mobile{
@@ -365,6 +369,7 @@ main{
     color: #2a81ea;
     font-weight: 500;
     letter-spacing: -0.01em;
+    font-size: 1rem;
 }
 .icone{
     color: #7fb3f2;
@@ -381,6 +386,128 @@ main{
     color: #3d4b69;
     font-size: 1rem;
     font-family: 'Roboto Condensed', sans-serif;
+}
+.width-card{
+    width: 20rem;
+}
+/*quinta section*/
+.titulo-um-quinta-section {
+    color: #2a81ea;
+    padding-top: 150px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+}
+.titulo-dois-quinta-section {
+    font-family: 'Oswald', sans-serif;
+    color: #465675;
+    font-size: 2.5rem;
+}
+.texto-um-quinta-section {
+    font-family: 'Roboto Slab', serif;
+    color: #3d4b69;
+    font-size: 1.5em;
+    margin-top: 25px;
+}
+.text-quinta{
+    color: #3d4b69;
+    line-height: 1.5;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.05rem;
+}
+.title-quinta{
+    font-weight: 500;
+    color: #3d4b69;
+    font-family: "Roboto",sans-serif;
+    font-size: 1.125rem;
+}
+.img-quinta{
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 35px 0px rgb(70 86 117 / 15%);
+
+}
+.box-quinta{
+    padding-top: 2rem;
+}
+.button-box-quinta{
+    color: white !important;
+    background-color: #2a81ea;
+    font-weight: bold;
+    border-radius: 2rem;
+    padding: 14px 30px 14px 30px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.button-box-quinta:hover{
+    background-color: #1468cd;
+    color: white !important;
+}
+#quinta-section{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+#quinta-section li{
+    list-style: none;
+}
+/*sexta-section*/
+.div-box-grande{
+    border-radius: 4px;
+    margin-top: 120px;
+    background: #fff;
+    box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+    height: 570px;
+}
+.img-sexta-section{
+    max-width: 95%;
+    margin-top: 67px;
+    margin-left: 9px;
+}
+.bottom{
+    padding-bottom:2px;
+}
+.height-section{
+    height: 700px;
+}
+.top{
+    padding-top: 1px;
+}
+.icone-check{
+    color: #3dca93;
+    margin-right: 8px;
+    font-size: 1em;
+    position: absolute;
+    left: -30px;
+    margin-top: 3px;
+}
+.box-texto{
+    position: relative;
+    left: 60px;
+    color: #50658e;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic unset;
+    font-size: 1.2em;
+    
+}
+.box-texto a{
+    text-decoration: underline;
+}
+.box-titulo{
+    font-size: 1.875rem;
+    margin-bottom: 2rem;
+    color: #465675;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.negrito-prevenção{
+    color: #3d4b69 !important;
+    font-family: "Roboto",sans-serif;
+}
+.padding-box{
+    padding: 15px;
 }
 @media (max-width: 320px) {
     .navbar-menu{
@@ -453,11 +580,6 @@ main{
         margin-left: -9px;
         margin-top: 19px;
     }
-    .card{
-        margin-left: 14%;
-        margin-top: 10px;
-       
-    }
     .border{
         width: unset !important;
     }
@@ -478,7 +600,58 @@ main{
     }
     .responsivo{
         margin-top: 67px;
-    }  
+    } 
+    .card {
+        margin-left: 14%;
+        margin-top: 65px;
+    } 
+    .icone {
+       
+        font-size: 2rem;
+    }
+    .card-sintomas {
+        margin-left: 6%;
+    }
+    .width-card {
+        width: 16rem;
+    }
+    .secunda-section {
+        height: 1461px;
+    }
+    .height{
+        margin-top: -793px;
+    }
+    .height-section {
+        height: 1790px;
+    }
+    .img-sexta-section{
+        margin-top: 10px;
+        margin-left: 50px;
+        max-height: 79%;
+    }
+    .box-titulo {
+        font-size: 1.4rem;
+        margin-left: 19px;
+    }
+    
+    .box-texto{
+        width: 14em;
+        font-size: 0.9em;
+        left: 35px;
+    }
+    .div-box-grande {
+        height: 1260px;
+    }
+    .texto-um-quinta-section{
+        font-size: 1.1em;
+    }
+    .texto-um-quarta-section {
+        font-size: 1.2em;
+    }
+    .button-box-quinta{
+        padding: 14px 20px 14px 20px;
+        font-size: 0.8rem;
+    }
 }
   
   
@@ -496,7 +669,7 @@ main{
         padding-left: 20px;
     }
     .icone-fechar-menu{
-        padding-top: 41px;
+        padding-top: 174px;
         font-size: 29px;
         color: white;
         padding-left: 320px;
@@ -548,11 +721,14 @@ main{
         margin-top: 25px;
         width: 345px;
     }
-    .card{
-        margin-left: 15%;
-        margin-top: 10px;
-       
+    .card-sintomas {
+        margin-left: 9%;
+        margin-top: 90px;
     }
+    .secunda-section {
+        height: 1315px;
+    }
+
     .icone-segunda-section{
         font-size: 0.9rem;
         text-align: center;
@@ -567,6 +743,46 @@ main{
     .responsivo{
          margin-top: 67px;
     }  
+    .icone {
+        font-size: 2rem;
+    }
+    .width-card{
+        width: 18rem;
+    }
+    .height{
+        margin-top: -587px;
+    }
+    .div-box-grande {
+        height: 1260px;
+    }
+    .box-texto{
+        width: 17em;
+        font-size: 0.9em;
+    }
+    .box-titulo{
+        font-size: 1.5rem;
+        margin-left: 37px;
+    }
+    .secunda-section {
+        height: 1268px;
+    }
+    .height-section {
+        height: 1457px;
+    }
+    .img-sexta-section{
+        margin-top: 10px;
+        margin-left: 50px;
+        max-height: 79%;
+    }
+    .texto-um-quinta-section{
+        font-size: 1.1em;
+    }
+    .texto-um-quarta-section {
+        font-size: 1.2em;
+    }
+    .button-box-quinta{
+        padding: 14px 20px 14px 20px;
+    }
 }
   
 @media (max-width: 576px) and (min-width:  376px) {
@@ -584,7 +800,7 @@ main{
         padding-left: 20px;
     }
     .icone-fechar-menu{
-        padding-top: 41px;
+        padding-top: 172px;
         font-size: 29px;
         color: white;
         padding-left: 374px;
@@ -636,7 +852,7 @@ main{
     }
     .card-segunda-section{
         margin-left: 10px;
-        margin-top: 54px;
+        margin-top: 0px;
         width: 363px;
     }
     
@@ -650,7 +866,7 @@ main{
         font-size: 1.125rem;
     }
     .card{
-        margin-left: 14%;
+        margin-left: 13%;
         margin-top: 45px;
        
     }
@@ -668,6 +884,31 @@ main{
     .responsivo{
         margin-top: 67px;
     }
+    .div-box-grande {
+        height: 1260px;
+    }
+    .box-texto{
+        width:  19em;
+        font-size: 0.9em;
+    }
+    .height{
+        margin-top: -717px;
+    }
+    .secunda-section {
+        height: 1268px;
+    }
+    .height-section {
+        height: 1457px;
+    }
+    .img-sexta-section{
+        margin-top: 10px;
+        margin-left: 50px;
+        max-height: 79%;
+    }
+    .texto-um-quarta-section {
+        font-size: 1.2em;
+
+    }
 }
   
 @media (max-width: 768px) and (min-width: 577px){
@@ -678,7 +919,7 @@ main{
       height: 975px;
     }
     .icone-fechar-menu{
-        padding-top: 35px;
+        padding-top: 172px;
         font-size: 35px;
         color: white;
     }
@@ -735,7 +976,6 @@ main{
         text-align: center;
     }
     .secunda-section {
-        width: 100vw;
         margin-bottom: 395px;
     }
     .tamanho-lateral{
@@ -746,6 +986,39 @@ main{
     }
     .responsivo{
         margin-top: 67px;
+    }
+    .texto-um-quarta-section{
+        font-size: 0.98em;
+    }
+    .icone{
+        margin-left: 104px;
+    }
+    .div-box-grande{
+        height: 1340px;
+    }
+    .box-texto{
+        font-size: 1em;
+        left: 114px;
+    }
+    .img-sexta-section {
+        margin-left: 130px;
+        max-height: 65%;
+        margin-top: 20px;
+    }
+    .box-titulo{
+        margin-left: 102px;
+    }
+    .tamanh-card {
+        margin-top: 45px;
+    }
+    .secunda-section {
+        height: 1089px;
+    }
+    .height{
+        margin-top: -406px;
+    }
+    .height-section {
+        height: 1549px;
     }
 }
   
@@ -768,6 +1041,9 @@ main{
     }
     .img-primeira-section{
         margin-top: 118px;
+    }
+    .tamanh-card {
+        margin-top: 162px;
     }
     .subtilo-primeira-section{
         margin-top: -23px;
@@ -797,6 +1073,9 @@ main{
         margin-left: -20px;
     }
     .card {
+        margin-left: -26px;
+    }
+    .card-sintomas  {
         margin-left: -39px;
         margin-top: 85px;
     }
@@ -811,6 +1090,31 @@ main{
     }
     .responsivo{
         margin-top: 67px;
+    }
+    .width-card{
+        width: 17rem;
+    }
+    .padding-row{
+        padding-left: 6rem;
+    }
+    .texto-um-quarta-section {
+        font-size: 1.2em;
+    }
+    .texto-um-quinta-section{
+        font-size: 1.1em;
+    }
+    .title-quinta{
+        font-size: 1.11rem;
+    }
+    .box-texto{
+        font-size: 1em;
+    }
+    .box-titulo{
+        margin-left: 44px;
+    }
+    .padding-box{
+        padding: 20px;
+        bottom: 18px;
     }
 }
 @media (max-width: 1440px) and (min-width: 1200px) {
