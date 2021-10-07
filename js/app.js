@@ -55,3 +55,66 @@ $(document).ready(function(){
 	});
 });
 
+$(function() {
+	$(window).on("scroll", function() {
+		if($(window).scrollTop() > 100) {
+			$(".menu-fixed").addClass("menu-fixed-branco");
+		}else{
+			$(".menu-fixed").removeClass("menu-fixed-branco");
+		}
+	})
+});
+//
+$('#faq_um').on('click', function(){
+	$('#bloco_faq_um').show();
+	$('#bloco_faq_dois').hide();
+	$('#bloco_faq_tres').hide();
+	$('#bloco_faq_quatro').hide();
+	$('#bloco_faq_cinco').hide();
+	$('#bloco_faq_seis').hide();
+});
+
+$('#faq_dois').on('click', function(){
+	$('#bloco_faq_um').hide();
+	$('#bloco_faq_dois').show();
+	$('#bloco_faq_tres').hide();
+	$('#bloco_faq_quatro').hide();
+	$('#bloco_faq_cinco').hide();
+	$('#bloco_faq_seis').hide();
+});
+
+$('#faq_tres').on('click', function(){
+	$('#bloco_faq_um').hide();
+	$('#bloco_faq_dois').hide();
+	$('#bloco_faq_tres').show();
+	$('#bloco_faq_quatro').hide();
+	$('#bloco_faq_cinco').hide();
+	$('#bloco_faq_seis').hide();
+});
+
+$('#faq_quatro').on('click', function(){
+	$('#bloco_faq_um').hide();
+	$('#bloco_faq_dois').hide();
+	$('#bloco_faq_tres').hide();
+	$('#bloco_faq_quatro').show();
+	$('#bloco_faq_cinco').hide();
+	$('#bloco_faq_seis').hide();
+});
+
+$('#faq_cinco').on('click', function(){
+	$('#bloco_faq_um').hide();
+	$('#bloco_faq_dois').hide();
+	$('#bloco_faq_tres').hide();
+	$('#bloco_faq_quatro').hide();
+	$('#bloco_faq_cinco').show();
+	$('#bloco_faq_seis').hide();
+});
+
+$('#faq_seis').on('click', function(){
+	$('#bloco_faq_um').hide();
+	$('#bloco_faq_dois').hide();
+	$('#bloco_faq_tres').hide();
+	$('#bloco_faq_quatro').hide();
+	$('#bloco_faq_cinco').hide();
+	$('#bloco_faq_seis').show();
+});
