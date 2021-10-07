@@ -509,6 +509,35 @@ main{
 .padding-box{
     padding: 15px;
 }
+/*setima section*/
+.titulo-setima-section{
+    font-size: 1.875rem;
+    color: #465675;
+    padding-top: 100px;
+}
+.subtitulo-setima{
+    font-size: 1rem;
+}
+.img-setima{
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 35px 0px rgb(70 86 117 / 15%);
+}
+.margin-negativa{
+    margin-top: -49px;
+}
+.margin{
+    margin-top: 80px;
+}
+.title-setima{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #3d4b69;
+    font-family: "Roboto",sans-serif;
+    margin-top: 32px;
+    margin-bottom: 130px;
+}
+/*oitava-section*/
 @media (max-width: 320px) {
     .navbar-menu{
         display: none;
@@ -625,7 +654,7 @@ main{
         height: 1790px;
     }
     .img-sexta-section{
-        margin-top: 10px;
+        margin-top: -7px;
         margin-left: 50px;
         max-height: 79%;
     }
@@ -651,6 +680,13 @@ main{
     .button-box-quinta{
         padding: 14px 20px 14px 20px;
         font-size: 0.8rem;
+    }
+    .margin{
+        margin-left: 25%;
+    }
+    .titulo-setima-section {
+        padding-top: 0px;
+        margin-top: -313px;
     }
 }
   
@@ -783,6 +819,13 @@ main{
     .button-box-quinta{
         padding: 14px 20px 14px 20px;
     }
+    .margin{
+        margin-left: 30%;
+    }
+    .titulo-setima-section {
+        padding-top: 0px;
+    }
+    
 }
   
 @media (max-width: 576px) and (min-width:  376px) {
@@ -909,6 +952,13 @@ main{
         font-size: 1.2em;
 
     }
+    .margin{
+        margin-left: 34%;
+    }
+    .titulo-setima-section {
+        padding-top: 0px;
+    }
+        
 }
   
 @media (max-width: 768px) and (min-width: 577px){
@@ -1020,6 +1070,13 @@ main{
     .height-section {
         height: 1549px;
     }
+    .margin {
+        margin-left: 50px;
+    }
+    .titulo-setima-section {
+        padding-top: 0px;
+    }
+        
 }
   
 @media (max-width: 1200px) and (min-width: 993px) {
